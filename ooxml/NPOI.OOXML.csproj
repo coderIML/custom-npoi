@@ -392,7 +392,9 @@
     </None>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ICSharpCode\" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\main\NPOI.csproj">
       <Project>{10fa8538-157a-4380-a4f6-8e2c3ee92cae}</Project>
