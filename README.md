@@ -1,39 +1,8 @@
 1.from 2012.08.24,i custom the code source ,then donnot ref the crypto and SharpZipLib 
-2.the npoi will be build on the .net 4.5 or more
-
-NPOI
 ===================
-[![NuGet Badge](https://buildstats.info/nuget/NPOI)](https://www.nuget.org/packages/NPOI)
-[![Badge](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu/#/en_US)
-[![Analytics](https://ga-beacon.appspot.com/UA-39118634-1/readme)](https://github.com/tonyqus/npoi)
-<br />
-This project is the .NET version of POI Java project. With NPOI, you can read/write Office 2003/2007 files very easily.<br />
-
-Get Started with NPOI
-============
-[Getting Started with NPOI](https://github.com/nissl-lab/npoi/wiki/Getting-Started-with-NPOI)
-
-[How to use NPOI on Linux](https://github.com/nissl-lab/npoi/wiki/How-to-use-NPOI-on-Linux)
-
-[ORM on NPOI](https://github.com/nissl-lab/npoi/wiki/ORM-on-NPOI)
-
-[Stop using Dotnetcore/NPOI nuget package. It’s obsolete!](https://tonyqus.medium.com/stop-using-dotnetcore-npoi-nuget-package-its-too-obsolete-6d0aeedb3319)
-
-[中国哪些公司在用.NET](https://github.com/dotnet-cn/jobs)
-
-[DotnetCore.NPOI的前世今生](https://github.com/nissl-lab/npoi/wiki/DotNetCore.NPOI的前世今生)
-
-[NPOI Changelog](https://github.com/nissl-lab/npoi/wiki/Changelog)
-
-Donation
-=========
-If this project help you reduce time to develop, you can give me a cup of beer 🍺 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/paypalme/tonyqus/5)
-
-Telegram User Group
-================
-Join us on telegram: https://t.me/npoidevs
-
-NOTE: QQ or wechat is not recommended.
+2.the npoi will be build on the .net 4.5 or more
+===================
+the code source from the https://github.com/nissl-lab/npoi
 
 Advantage of NPOI
 =================
