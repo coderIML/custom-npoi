@@ -1,3 +1,6 @@
+1.from 2012.08.24,i custom the code source ,then donnot ref the crypto and SharpZipLib 
+2.the npoi will be build on the .net 4.5 or more
+
 NPOI
 ===================
 [![NuGet Badge](https://buildstats.info/nuget/NPOI)](https://www.nuget.org/packages/NPOI)
