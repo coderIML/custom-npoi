@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPOI.OpenXmlFormats", "..\O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel.Utilies", "Excel.Utilies\Excel.Utilies.csproj", "{08FCF2D9-5DF5-4E0B-9276-B58DD2603D76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel.Utilies.Test", "Excel.Utilies.Test\Excel.Utilies.Test.csproj", "{6CD985FA-204F-4480-ACE5-C27F5B20FF92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		.net 2 Release|Any CPU = .net 2 Release|Any CPU
@@ -73,6 +75,16 @@ Global
 		{08FCF2D9-5DF5-4E0B-9276-B58DD2603D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08FCF2D9-5DF5-4E0B-9276-B58DD2603D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08FCF2D9-5DF5-4E0B-9276-B58DD2603D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD985FA-204F-4480-ACE5-C27F5B20FF92}..net 2 Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD985FA-204F-4480-ACE5-C27F5B20FF92}..net 2 Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD985FA-204F-4480-ACE5-C27F5B20FF92}..net 4 Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD985FA-204F-4480-ACE5-C27F5B20FF92}..net 4 Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD985FA-204F-4480-ACE5-C27F5B20FF92}..net 4.5 release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD985FA-204F-4480-ACE5-C27F5B20FF92}..net 4.5 release|Any CPU.Build.0 = Debug|Any CPU
+		{6CD985FA-204F-4480-ACE5-C27F5B20FF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD985FA-204F-4480-ACE5-C27F5B20FF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD985FA-204F-4480-ACE5-C27F5B20FF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD985FA-204F-4480-ACE5-C27F5B20FF92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

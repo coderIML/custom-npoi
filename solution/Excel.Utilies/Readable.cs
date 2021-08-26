@@ -57,7 +57,7 @@ namespace Excel.Utilies
             set = new DataSet();
             for (int i = 0; i < len; i++)
             {
-                DataTable table = null;
+                DataTable table = new DataTable();
                 SheetToDataTable(workbook.GetSheetAt(i), isFirstRowColumn, ref table);
                 if (table != null)
                 {
@@ -161,6 +161,10 @@ namespace Excel.Utilies
             //get last row's position
             int rowCount = sheet.LastRowNum;
             IRow firstRow = sheet.GetRow(sheet.FirstRowNum);
+            if (firstRow == null)
+            {
+                throw new Exception("Sheet第一行没有数据记录");
+            }
             //一行最后一个cell的编号 即总的列数
             //get last cell's position
             int cellCount = firstRow.LastCellNum;
