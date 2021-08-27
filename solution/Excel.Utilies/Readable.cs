@@ -140,6 +140,30 @@ namespace Excel.Utilies
         }
 
         /// <summary>
+        /// 根据sheet名称获取指定ISheet对象
+        /// </summary>
+        /// <param name="fileName">excel文件路径</param>
+        /// <param name="sheetName">excel工作薄sheet的名称</param>
+        /// <returns></returns>
+        public static ISheet GetSheetBySheetName(string fileName, string sheetName)
+        {
+            IWorkbook workbook = GetWorkbook(fileName);
+            return workbook.GetSheet(sheetName);
+        }
+
+        /// <summary>
+        /// 根据sheet索引获取指定ISheet对象
+        /// </summary>
+        /// <param name="fileName">excel文件路径</param>
+        /// <param name="sheetName">excel工作薄sheet的索引</param>
+        /// <returns></returns>
+        public static ISheet GetSheetBySheetIndex(string fileName, int sheetIndex)
+        {
+            IWorkbook workbook = GetWorkbook(fileName);
+            return workbook.GetSheetAt(sheetIndex);
+        }
+
+        /// <summary>
         /// 将Excel中的工作薄转换为DataTable
         /// convert sheet into data table
         /// </summary>
